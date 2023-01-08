@@ -74,7 +74,7 @@ margin-top: 25px;
 .fixed-footer{
         width: 100%;
         margin: 0;
-        position: fixed;        
+        position: relative;        
         background: #333;
         padding: 10px;
         color: #fff;
