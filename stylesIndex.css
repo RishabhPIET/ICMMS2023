@@ -46,7 +46,7 @@ margin-top: 20px;
 
 /* ------------------ Section2 - Call for Papers -----------------------------------*/
 .paperCall{
-  margin-top: 5%;
+  margin-top: 4%;
   text-align: justify;
   
 }
@@ -75,6 +75,11 @@ margin-top: 20px;
     font-size: 12px;
     
   }
+  .paperCall{
+    margin-top: 14%;
+    text-align: justify;
+  }
+    
   .paperCall p{
     padding-left: 5%;
     padding-right: 5%;
@@ -118,4 +123,15 @@ table, th, td {
 table.center{
   margin-left: auto; 
   margin-right: auto;
+}
+
+/* registraion page ---------------------------------------------------------------------------------- */
+
+.regContainer{
+  margin-top: 5%;
+  width: 100%;
+  text-align: justify;
+}
+.regImg{
+  width: 100%;
 }
