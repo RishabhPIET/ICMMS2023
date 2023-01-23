@@ -135,3 +135,44 @@ table.center{
 .regImg{
   width: 100%;
 }
+
+/***********************For Participate section pages***********************/
+/***********************   Venue *********************/
+.if{
+  float: right;
+  width: 1080px;
+  height: 1000px;
+  
+}
+.i{
+
+margin: 10px 10px 10px 20px;
+
+}
+.i h2{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.i p{
+  text-align: center;
+}
+/************************Accommodation****************/
+.ru{
+  background-color: #cef8f4;
+  float: right;
+  width: 1080px;
+}
+.ru h1{
+  margin: 10px 0px 20px 10px;
+}
+
+.ru h2
+{
+  margin: 10px 0px 20px 10px;
+}
+.ru p{
+  
+  text-align: justify;
+  word-spacing: 10px;
+  margin: 10px 0px 20px 35px;
+}
