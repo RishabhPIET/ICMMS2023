@@ -2,6 +2,7 @@
   margin: 0;
   }
 
+
 .container-shadow{
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   height: auto;
@@ -67,42 +68,8 @@ margin-top: 20px;
   margin-right: 10%;
   
 }
-@media only screen and (max-width: 700px){
-  .trackCall{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 12px;
-    
-  }
-  .paperCall{
-    margin-top: 14%;
-    text-align: justify;
-  }
-    
-  .paperCall p{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    font-size: 14px;
-  }
-  .paperCall2 p{
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 14px;
-  }
-  .InstituteCall{
-    margin-left: 3%;
-    text-align: justify;
-    font-size: 10px;
-  }
-  .ri
-{ word-spacing: 5px;
-  text-align: justify;
-  font-size: 14px;
-margin-top: 20px;
-}
-}
+
+
 .paperCall2{
   text-align: justify;
   
@@ -138,41 +105,58 @@ table.center{
 
 /***********************For Participate section pages***********************/
 /***********************   Venue *********************/
-.if{
-  float: right;
-  width: 1080px;
-  height: 1000px;
+.imgVenue{
+  width: 100%;
+  height: auto;
   
 }
-.i{
-
-margin: 10px 10px 10px 20px;
-
-}
-.i h2{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-}
-.i p{
-  text-align: center;
-}
-/************************Accommodation****************/
-.ru{
-  background-color: #cef8f4;
-  float: right;
-  width: 1080px;
-}
-.ru h1{
-  margin: 10px 0px 20px 10px;
+.location{
+  width: 110%;
+  height: 310px;
+  align-items: center;
 }
 
-.ru h2
-{
-  margin: 10px 0px 20px 10px;
-}
-.ru p{
-  
+
+
+
+@media only screen and (max-width: 700px){
+  .trackCall{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+    
+  }
+  .paperCall{
+    margin-top: 14%;
+    text-align: justify;
+  }
+    
+  .paperCall p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-size: 14px;
+  }
+  .paperCall2 p{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px;
+  }
+  .InstituteCall{
+    margin-left: 3%;
+    text-align: justify;
+    font-size: 10px;
+  }
+  .ri
+  { word-spacing: 5px;
   text-align: justify;
-  word-spacing: 10px;
-  margin: 10px 0px 20px 35px;
+  font-size: 14px;
+  margin-top: 20px;
+  }
+  .location{
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  }
 }
