@@ -178,34 +178,29 @@ table.center{
 .he{
   text-align: left;
   margin: 0px 50px 0px 30px;
+  padding: 10px 0px 10px 0px;
 }
 .P{
-  text-align:right;
-  font-family: 'Times New Roman', Times, serif;
-  display: inline-block;
-  width: 700px;
-
-
+  display:inline-block;
 }
 .Pa{
-  display: inline-block;
+  
   float: right;
   text-align: justify;
   text-justify: inter-word;
   font-family: 'Times New Roman', Times, serif;
   word-spacing: 3px;
-  width: 835px;
+  width: 817px;
   height: 270px;
   margin: 0px 0px 0px 0px;
 }
 
 .Pa h3{
-
   margin: 15px 10px 0px 10px;
 
 }
 .Pa p{
   font-size: 15px;
   height: 210px;
-  margin: 5px 0px 0px 10px;
+  margin: 2px 0px 0px 10px;
 }
