@@ -11,6 +11,9 @@
                 <meta name="robots" content="all">
                 <link rel="stylesheet" href="stylesIndex.css">
 
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
                 <script src="js/jquery-3.5.1.min.js"></script>
@@ -98,13 +101,14 @@
 
 
 <!-- main content -->
-  <div class="container-fluid regContainer d-flex justify-content-center mt-3">
-    <div class="row row-cols-md-2 container container-shadow">
-      <div class="col-sm-2 pt-lg-5">
-        <img class="regImg" src="Images/Jantar Mantar.jpg">
+  <div class="container container-shadow mt-md-3">
+    <div class="row row-cols-md-2">
+      <div data-aos="zoom-out" data-aos-duration="1000"
+        class="col-md-5 align-self-center order-md-1">
+        <img class="img-fluid" src="Images/Jantar Mantar.jpg">
       </div>
-      <div class="col-sm-8">
-        <h1 class="text-center mt-2">Registration Guideline</h1>
+      <div data-aos="fade-right" data-aos-duration="1000" class="col-md-7 order-md-2">
+        <h1 class="text-center mt-2 text-secondary text-opacity-90">Registration Guideline</h1>
         <h3 class="pt-4 text-info">Registration Process</h3> 
         <ul>
           <li> It is mandatory that at least one of the authors of each accepted paper shall Register
@@ -118,11 +122,15 @@
             <li>Selected papers will be published in quality Journals like AIP, Scopus, Springer etc</li>
         </ul>
       </div>
-       <div class="col-sm-2 pt-md-5">
-        <img class="regImg" src="Images/Amer Fort.jpg">
+
+      <div data-aos="zoom-out" data-aos-duration="1000" 
+       class="col-md-5 align-self-center order-md-4">
+        <img class="img-fluid" src="Images/Amer Fort.jpg">
       </div>
-      <div class="col-sm-8">
-        <h3 class="pt-4 text-info">INSTRUCTIONS</h3> 
+
+      <div data-aos="fade-left" data-aos-duration="1000"
+      class="col-md-7 container-shadow my-3 order-md-3">
+        <h3 class="pt-4 text-primary">INSTRUCTIONS</h3> 
         <ul>
           <li>For each accepted paper, at least one of the authors must register for the conference.</li>
             <li>One registration in the Author’s Registration Category is mandatory for
@@ -135,59 +143,73 @@
             <li>Per person registration fee structure is as follows –</li>
         </ul>
       </div>
-      <div class="col-sm-2 pt-xxl-5">
-        <img class="regImg" src="Images/City Palace.jpg">
       </div>
-      <div class="col-sm-8 px-3">
-        <h3 class="text-primary">Registration Fees</h3>
-          <div class="row row-cols-md-2">
-            
-              <img src="images/Screenshot.png">            
-          </div>
-      </div>
-      <div class="col-sm-2 pt-xxl-5">
-        <img class="regImg" src="Images/Hawa mahal.jpg">
-      </div>
-      <div class="col-sm-8 pt-md-4">
-        <h3 class="text-info">Payment Details</h3>
-        <ul> 
-          <li>Account Holder-POORNIMA INSTITUTE PART TWO</li>
-          <li>Account Number-50200067728688</li>
-          <li>Bank Name-HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA
-            SITAPURA, JAIPUR</li>
-          <li>IFSC Code-HDFC0003873</li>
-          <li>SWIFT CODE-HDFCINBBXXX</li></ul>
 
-          <h3 class="text-primary">Important Dates</h3>
-          <table class="center">
-            <tr>
-              <th>Full Paper Submission</th>
-              <td>April 30, 2023</td>
-            </tr>
-            <tr>
-              <th>Acceptance of Paper</th>
-              <td>May 30, 2023</td>
-            </tr>
-            <tr>
-              <th>Camera Ready Paper Submission</th>
-              <td>June 15, 2023</td>
-            </tr>
-            <tr>
-              <th>Early bird Registration</th>
-              <td>June 15, 2023</td>
-            </tr>
-            <tr>
-              <th>Late Registration</th>
-              <td>June 15, 2023</td>
-            </tr>
-            <tr>
-              <th>Conference Date</th>
-              <td>18 &amp; 19 August 2023</td>
-            </tr>
-          </table>
-          <div class=" border-1 mt-4 bg-success bg-opacity-10"> 
-            <h3 class="text-info pt-2 px-2">Refund Policy</h3>
-            <p class="p-2">If a registrant is unable to attend an event for any reason, they may substitute, by
+      <div class="row row-cols-md-2">
+      <div data-aos="zoom-out" data-aos-duration="1000"
+        class="col-md-5 align-self-center order-md-1">
+        <img class="img-fluid" src="Images/City Palace.jpg">
+      </div>
+
+      <div data-aos="fade-right" data-aos-duration="1000"
+        class="col-md-7 order-md-2">
+        <h3 class="text-info pt-4">Registration Fees</h3>
+            <div class="align-self-center">
+              <img class="img-thumbnail" src="images/regFee.png">  
+            </div>          
+      </div>
+
+      <div data-aos="zoom-out" data-aos-duration="1000"
+      class="col-md-5 align-self-center order-md-3">
+        <img class="img-fluid" src="Images/Hawa mahal.jpg">
+      </div>
+
+      <div class="col-md-7 pt-md-4 order-md-4">
+        <div data-aos="fade-right" data-aos-duration="1000"  class="inner-shadow p-3 bg-secondary bg-opacity-25">
+          <h3 class="text-primary">Payment Details</h3>
+          <ul> 
+            <li>Account Holder-POORNIMA INSTITUTE PART TWO</li>
+            <li>Account Number-50200067728688</li>
+            <li>Bank Name-HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA
+              SITAPURA, JAIPUR</li>
+            <li>IFSC Code-HDFC0003873</li>
+            <li>SWIFT CODE-HDFCINBBXXX</li></ul>
+        </div>
+
+          <div data-aos="fade-right" data-aos-duration="1000" class="pt-4">
+            <h3 class="text-info">Important Dates</h3>
+            <table class="center">
+              <tr>
+                <th>Full Paper Submission</th>
+                <td>April 30, 2023</td>
+              </tr>
+              <tr>
+                <th>Acceptance of Paper</th>
+                <td>May 30, 2023</td>
+              </tr>
+              <tr>
+                <th>Camera Ready Paper Submission</th>
+                <td>June 15, 2023</td>
+              </tr>
+              <tr>
+                <th>Early bird Registration</th>
+                <td>June 15, 2023</td>
+              </tr>
+              <tr>
+                <th>Late Registration</th>
+                <td>June 15, 2023</td>
+              </tr>
+              <tr>
+                <th>Conference Date</th>
+                <td>18 &amp; 19 August 2023</td>
+              </tr>
+            </table>
+          </div>
+
+          <div data-aos="fade-right" data-aos-duration="1000"
+          class=" border-1 mt-4 bg-success inner-shadow bg-opacity-10"> 
+            <h3 class="text-primary pt-3 px-3">Refund Policy</h3>
+            <p class="px-3 py-2 paperCall2">If a registrant is unable to attend an event for any reason, they may substitute, by
               arrangement with the registrar, someone else of Co-authors or from the same
               institute/organization. <br>Written requests for cancellations must be sent to Conference
                 Secretary (<b> months before the conference</b>), and 30 USD will be charged, 
@@ -203,6 +225,12 @@
 <div class="fixed-footer">
         <div class="">Copyright &copy; 2022 Your Company</div>        
     </div>
+
+    <!-- animation on scroll script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>

@@ -10,6 +10,9 @@
                 <meta name="robots" content="all">
                 <link rel="stylesheet" href="stylesIndex.css">
 
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
                 <script src="js/jquery-3.5.1.min.js"></script>
@@ -47,7 +50,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav px-5">
           <li class="nav-item px-2">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link" href="subGuidlines.html">Submission</a>
@@ -71,11 +74,11 @@
           </li>
           
           <li class="nav-item dropdown px-2">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Special Sessions
             </a>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="Call for Sessions.html">Call for Sessions</a></li>
+              <li><a class="dropdown-item active" href="Call for Sessions.html">Call for Sessions</a></li>
             </ul>
           </li>
          <li class="nav-item px-2">
@@ -94,8 +97,8 @@
   </nav>
 
 <!-- main content -->
-<div class="container regContainer container-shadow">
-  <div class="paperCall">
+<div class="container mt-4 py-4 container-shadow">
+  <div data-aos="fade-down" data-aos-duration="1000" class="paperCall2 inner-shadow py-3 bg-info bg-opacity-10">
                 <p>The conference revolves around bringing mathematics, engineering, technology, and sciences 
           research areas synchronically on an indivisible platform. This conference is an opportunity 
           for collaborative research from various fields to share research findings and latest ideas. The 
@@ -112,86 +115,93 @@
      </div>
 
 
+ <!--Paper track Grid-->
  <div class="trackCall">
-
-        <div class="row row-cols-md-2 ">
-          <div class="col-md-6 p-3 container-shadow">
-              <h6>TRACK 1: NUMBER THEORY & GENERAL ALGEBRAIC SYSTEMS</h6>
-                <ul class="justify-content-center">
-                  <li>Fuzzy Logics</li>
-                  <li>Field Theory and Polynomials</li>
-                  <li>Commutative Algebra</li>
-                  <li>Algebraic Geometry</li>
-                  <li>Linear and Multilinear Algebra; Matrix Theory</li>
-                  <li>Associative Rings and Algebras</li>
-                  <li>Non-associative Rings and Algebras</li>
-                  <li>Category Theory; Homological Algebra</li>
-                  <li>Topological Groups, Lie Groups</li>
-                </ul>
-        </div>
-          <div class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
-              <h6>TRACK 2: MATHEMATICAL ANALYSIS</h6>
-              <ul class="justify-content-center">
-                <li>Real Functions</li>
-                <li>Functions of a Complex Variables</li>
-                <li>Several Complex Variables and Analytic Spaces</li>
-                <li>Special Functions</li>
-                <li>Approximations and Expansion</li>
-                <li>Integral Transforms, Operational Calculus</li>
-                <li>Functional Analysis and Operator Theory</li>
-              </ul>
-          </div>
-          <div class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
-              <h6>TRACK 3: MECHANICS AND APPLIED MATHEMATICS</h6>
-              <ul class="justify-content-center">
-                <li>Mechanics of Particles and Systems</li>
-                <li>Mechanics of Deformable Solids</li>
-                <li>Fluid Mechanics</li>
-                <li>Classical Thermodynamics, Heat Transfer</li>
-                <li>Quantum Theory</li>
-                <li>Statistical Mechanics, Structure of Matter</li>
-                <li>Relativity and Gravitational Theory</li>
-              </ul>
-          </div>
-          <div class="col-md-6 px-4 py-5 container-shadow">
-            <h6>TRACK 4: OPERATIONS RESEARCH</h6>
-            <ul class="justify-content-center">
-              <li>Calculus of Variations and Optimal Control; Optimization</li>
-              <li>Operations Research, Mathematical Programming</li>
-              <li>Game Theory, Economics, Social and Behavioural Sciences</li>
-              <li>Systems Theory</li>
-            </ul>
-          </div>
-          <div class="col-md-6 px-4 py-5 container-shadow">
-            <h6>TRACK 5: STATISTICS</h6>
-            <ul class="justify-content-center">
-              <li>MProbability Theory and Stochastic Processes</li>
-              <li>Statistics</li>
-              <li>Statatistical Anaysis</li>
-            </ul>
-          </div>
-          <div class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
-            <h6>TRACK 6: GRAPH THEORY AND GEOMETRY</h6>
-            <ul class="justify-content-center">
-              <li>Convex and Discrete Geometry</li>
-              <li>Differential Geometry</li>
-              <li>General Topology</li>
-              <li>Algebraic Topology</li>
-              <li>Graph Algorithms with Theoretical EmphasisGraph Algorithms with Theoretical Emphasis</li>
-              <li>Discrete Optimization on Graphs</li>
-              <li>Graphs and Hypergraphs</li>
-              <li>Network Theory</li>
-              <li>Combinatorial Optimization</li>
-              <li>Coding Theory</li>
-              <li>Combinatorial Geometry</li>
-              <li>Neural Network</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <div class="row row-cols-md-2 ">
+    <div data-aos="fade-left" data-aos-duration="1000"
+      class="col-md-6 p-3 container-shadow">
+        <h6>TRACK 1: NUMBER THEORY & GENERAL ALGEBRAIC SYSTEMS</h6>
+          <ul class="justify-content-center">
+            <li>Fuzzy Logics</li>
+            <li>Field Theory and Polynomials</li>
+            <li>Commutative Algebra</li>
+            <li>Algebraic Geometry</li>
+            <li>Linear and Multilinear Algebra; Matrix Theory</li>
+            <li>Associative Rings and Algebras</li>
+            <li>Non-associative Rings and Algebras</li>
+            <li>Category Theory; Homological Algebra</li>
+            <li>Topological Groups, Lie Groups</li>
+          </ul>
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1000"
+    class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
+        <h6>TRACK 2: MATHEMATICAL ANALYSIS</h6>
+        <ul class="justify-content-center">
+          <li>Real Functions</li>
+          <li>Functions of a Complex Variables</li>
+          <li>Several Complex Variables and Analytic Spaces</li>
+          <li>Special Functions</li>
+          <li>Approximations and Expansion</li>
+          <li>Integral Transforms, Operational Calculus</li>
+          <li>Functional Analysis and Operator Theory</li>
+        </ul>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1000"
+    class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
+        <h6>TRACK 3: MECHANICS AND APPLIED MATHEMATICS</h6>
+        <ul class="justify-content-center">
+          <li>Mechanics of Particles and Systems</li>
+          <li>Mechanics of Deformable Solids</li>
+          <li>Fluid Mechanics</li>
+          <li>Classical Thermodynamics, Heat Transfer</li>
+          <li>Quantum Theory</li>
+          <li>Statistical Mechanics, Structure of Matter</li>
+          <li>Relativity and Gravitational Theory</li>
+        </ul>
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1000"
+    class="col-md-6 px-4 py-5 container-shadow">
+      <h6>TRACK 4: OPERATIONS RESEARCH</h6>
+      <ul class="justify-content-center">
+        <li>Calculus of Variations and Optimal Control; Optimization</li>
+        <li>Operations Research, Mathematical Programming</li>
+        <li>Game Theory, Economics, Social and Behavioural Sciences</li>
+        <li>Systems Theory</li>
+      </ul>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1000"
+    class="col-md-6 px-4 py-5 container-shadow">
+      <h6>TRACK 5: STATISTICS</h6>
+      <ul class="justify-content-center">
+        <li>MProbability Theory and Stochastic Processes</li>
+        <li>Statistics</li>
+        <li>Statatistical Anaysis</li>
+      </ul>
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1000"
+    class="col-md-6 bg-secondary bg-opacity-25 p-3 container-shadow">
+      <h6>TRACK 6: GRAPH THEORY AND GEOMETRY</h6>
+      <ul class="justify-content-center">
+        <li>Convex and Discrete Geometry</li>
+        <li>Differential Geometry</li>
+        <li>General Topology</li>
+        <li>Algebraic Topology</li>
+        <li>Graph Algorithms with Theoretical EmphasisGraph Algorithms with Theoretical Emphasis</li>
+        <li>Discrete Optimization on Graphs</li>
+        <li>Graphs and Hypergraphs</li>
+        <li>Network Theory</li>
+        <li>Combinatorial Optimization</li>
+        <li>Coding Theory</li>
+        <li>Combinatorial Geometry</li>
+        <li>Neural Network</li>
+      </ul>
+    </div>
+  </div>
+</div>
       
-        <div class="px-md-4 py-md-4">
-          <h2>Important Dates</h2>
+  <!-- Important Dates Table-->
+        <div data-aos="fade-up" data-aos-duration="1000" class="px-md-4 py-md-4">
+          <h2 class="text-primary ms-4 mt-3 ps-4">Important Dates</h2>
                     <table class="center">
                       <tr>
                         <th>Full Paper Submission</th>
@@ -219,6 +229,11 @@
         <div class="">Copyright &copy; 2016 Your Company</div>        
     </div>
 
+<!-- animation on scroll script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
  </body>
  </html>
