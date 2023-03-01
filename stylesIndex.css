@@ -168,6 +168,11 @@ table.center{
   height: 300px;
   align-items: center;
   }
+  .i{
+    margin-top: 4%;
+    height: 200px;
+    width: 100%;
+  }
 }
 /***********************************Venue*******************************************/
 
