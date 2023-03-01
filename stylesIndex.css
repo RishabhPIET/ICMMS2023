@@ -240,8 +240,11 @@ table.center{
   color: grey;
   font-size: 14px;
 }
-
-button1 {
+.mail-anchor{
+  text-decoration: none;
+}
+.button1 {
+  text-decoration: none;
   border: none;
   outline: 0;
   display: inline-block;
@@ -254,7 +257,7 @@ button1 {
   font-size: 18px;
 }
 
-button1:hover, a:hover {
+.button1:hover, a:hover {
   opacity: 0.7;
 }
 
