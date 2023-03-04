@@ -180,15 +180,25 @@ table.center{
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: auto;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
 .card:hover {
   box-shadow: 0 6px 9px 0 rgba(0, 0,0 , 0.8);
 }
-
+.card1:hover{
+  box-shadow: 0 6px 9px 0 rgba(0, 0,0 , 0.8);
+}
 .title {
   color: grey;
   font-size: 14px;
